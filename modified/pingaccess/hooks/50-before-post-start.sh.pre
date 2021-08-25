@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 
 echo "runnig 50-before-post-start.sh.pre hook"
+
+touch /opt/out/instance/conf/hookcalled
